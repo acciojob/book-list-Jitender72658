@@ -10,26 +10,26 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<h1 align="center">MyBookList</h1>
+	<h1 align="center">My<span style="color: skyblue;">Book</span>List</h1>
 	
 	<div class="form-group">
 	<label for="title">Title</label>
-	<input type="text" id="title" >
+	<input type="text" id="title" class="input-field">
 	<br>
 	<br>
 
 	<label for="author">Author</label>
-	<input type="text" id="author">
+	<input type="text" id="author" class="input-field">
 	<br>
 	<br>
 
 	<label for="isbn">ISBN#</label>
-	<input type="text" id="isbn">
+	<input type="text" id="isbn" class="input-field">
 	<br>
 	<br>
 
     <label for="add"></label>
-	<input type ="submit" id="submit" value="Add Book">
+	<input type ="submit" id="submit" value="Add Book" class="add-book">
 	<br>
 	<br>
 	</div>	
@@ -40,14 +40,15 @@
 			 <th>Title</th>
 			 <th>Author</th>
 			 <th>ISBN#</th>
-			 <th>X</th>
+			 <th></th>
 			</tr>
 		</thead>
-
 		<tbody id ="book-list">
+			<tr>
 			
 		</tbody>
 	</table>
+	<hr>
 
 </body>
 
